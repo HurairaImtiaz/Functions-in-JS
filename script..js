@@ -12,3 +12,11 @@ function name (str) {
 } 
 let userName = 'huraira';
 name(userName);
+ 
+ // function returns sum of two numbers 
+ function addition (a,b) {
+ let sum = a+b; 
+ return sum; 
+ 
+ }
+ addition (4,5);
