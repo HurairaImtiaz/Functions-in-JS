@@ -4,10 +4,14 @@ numbers.forEach(function(element){
 
 })
 
-numbers.forEach(function(element){
-    if (element % 2 === 0)
-    {
-        console.log(element);
-    }
+// numbers.forEach(function(element){
+//     if (element % 2 === 0)
+//     {
+//         console.log(element);
+//     }
 
+// })
+
+const doubles = numbers.map(function(num){
+    return num*2;
 })
